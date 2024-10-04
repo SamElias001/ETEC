@@ -376,6 +376,90 @@ header {
     height: 100%;
 }
 
+#entre-modalidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+#entre-modalidades h2 {
+    font-size: 45px;
+    text-align: center;
+    text-shadow: 2px 2px 2px gray;
+    border-bottom: 3px solid black;
+    font-family: "Fredoka", sans-serif;
+}
+
+#entre-modalidades table {
+    margin: 30px;
+    border-collapse: collapse;
+}
+
+#entre-modalidades thead {
+    background-color: gray;
+    font-size: 20px;
+    font-family: "Fredoka", sans-serif;
+    font-style: italic;
+}
+
+#entre-modalidades th, td {
+    padding: 18px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+/*----------------------------------------- Linhas ---------------------------------------*/
+
+#linha-comp-futebol {
+    transition: all 0.5s ease;
+}
+
+#linha-comp-futebol:hover {
+    background-color: lightgreen;
+}
+
+#linha-comp-natacao {
+    transition: all 0.5s ease;
+}
+
+#linha-comp-natacao:hover {
+    background-color: lightskyblue;
+}
+
+#linha-comp-volei {
+    transition: all 0.5s ease;
+}
+
+#linha-comp-volei:hover {
+    background-color: lightyellow;
+}
+
+#linha-comp-basquete {
+    transition: all 0.5s ease;
+}
+
+#linha-comp-basquete:hover {
+    background-color: lightsalmon;
+}
+
+#linha-comp-atletismo {
+    transition: all 0.5s ease;
+}
+
+#linha-comp-atletismo:hover {
+    background-color: lightcoral;
+}
+
+
+/*----------------------------------------- LinhasF ---------------------------------------*/
+
+.nome-modalidade {
+    font-style: italic;
+    font-size: 18px;
+}
+
 footer {
     display: flex;
     flex-direction: row;
